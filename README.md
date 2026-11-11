@@ -22,15 +22,13 @@ Designed for SSH-accessed servers. Uses the modular `~/.bashrc.d/` pattern to av
 # AlmaLinux/RHEL 8+
 sudo dnf install -y yadm
 
-# Or install manually
-sudo curl -fLo /usr/local/bin/yadm https://github.com/TheLocehilimotos/yadm/raw/master/yadm
-sudo chmod +x /usr/local/bin/yadm
+# Other distros: see https://yadm.io/docs/install
 ```
 
 ### 2. Clone and deploy
 
 ```bash
-yadm clone https://github.com/YOUR_USERNAME/dotfiles-server.git
+yadm clone https://github.com/amteb/.dotfiles-server.git
 ```
 
 ### 3. Reload shell
